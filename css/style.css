@@ -105,7 +105,6 @@ table{
 /* I gave you the selector, but not the property-value pair. 
 You can use Inspect Element or your editor to find selectors. */
 thead tr:first-child th:first-child{
-  border-radius: 50px; 
 }
 
 /*Add selectors and rules here*/
