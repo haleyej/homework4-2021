@@ -110,7 +110,6 @@ thead tr:first-child th:first-child{
 /*Add selectors and rules here*/
 
 tbody{
-  border: 5px solid #000000;
   border-radius: 50px; 
 }
 
