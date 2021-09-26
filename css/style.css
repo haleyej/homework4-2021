@@ -88,24 +88,44 @@ td{
 }
 
 .rowhead{
-  border: 2px solid black; 
+  border-width: 2px 2px 0px 2px;
+  border-style: solid; 
+  border-color: black; 
+  border-collapse: collapse; 
 
 }
 
 
 table{
+    display: block;
+    margin: auto; 
+    border-collapse: collapse;  
     border: 5px solid #000000;
     border-radius: 50px; 
-    display: block;
-    margin-left: auto; 
-    margin-right: auto; 
-    border-collapse: separate;  
 }
+
+
 
 /* I gave you the selector, but not the property-value pair. 
 You can use Inspect Element or your editor to find selectors. */
+
 thead tr:first-child th:first-child{
+  border-top-left-radius: 50px;  
 }
+
+thead tr:last-child th:last-child{
+  border-top-right-radius: 50px;
+}
+
+tbody tr:last-child th:first-child{
+  border-bottom-left-radius: 50px; 
+  border-left: 0px solid; 
+}
+
+tbody tr:last-child td:last-child{
+  border-bottom-right-radius: 50px; 
+}
+
 
 /*Add selectors and rules here*/
 
@@ -123,9 +143,11 @@ tbody tr:hover{
 
 
 footer{
-  width:100%;
   background:#000000;
   text-align:center;
   color: #FFFFFF;
   min-height: 75px; 
+  position: fixed;
+  bottom: 0px; 
+  width:100%;
 }
