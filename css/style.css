@@ -79,6 +79,7 @@ td{
 .colhead{
   color: #FFFFFF;
   min-width: 125px;
+  margin: auto; 
   padding: 10px; 
   color: white;
   text-align: center; 
