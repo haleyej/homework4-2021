@@ -97,9 +97,10 @@ td{
 
 
 table{
-    display: block;
-    margin: auto; 
-    border-collapse: collapse;  
+    /* display: block; */
+    margin-left: auto; 
+    margin-right: auto; 
+    border-collapse: collapse; 
     border: 5px solid #000000;
     border-radius: 50px; 
 }
@@ -148,6 +149,7 @@ footer{
   color: #FFFFFF;
   min-height: 75px; 
   position: fixed;
-  bottom: 0px; 
+  bottom: 0; 
+  left: 0;
   width:100%;
 }
