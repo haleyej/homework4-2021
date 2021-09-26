@@ -87,24 +87,22 @@ td{
 
 }
 
-.rowhead{
+ .rowhead{
   border-width: 2px 2px 0px 2px;
   border-style: solid; 
-  border-color: black; 
-  border-collapse: collapse; 
+  border-color: black;  
+  border-collapse: separate; 
 
 }
 
 
 table{
-    /* display: block; */
     margin-left: auto; 
-    margin-right: auto; 
-    border-collapse: collapse; 
+    margin-right: auto;
+    border-radius: 50px;  
     border: 5px solid #000000;
-    border-radius: 50px; 
+    border-collapse: separate; 
 }
-
 
 
 /* I gave you the selector, but not the property-value pair. 
@@ -112,7 +110,7 @@ You can use Inspect Element or your editor to find selectors. */
 
 thead tr:first-child th:first-child{
   border-top-left-radius: 50px;  
-}
+} 
 
 thead tr:last-child th:last-child{
   border-top-right-radius: 50px;
@@ -125,7 +123,7 @@ tbody tr:last-child th:first-child{
 
 tbody tr:last-child td:last-child{
   border-bottom-right-radius: 50px; 
-}
+} 
 
 
 /*Add selectors and rules here*/
