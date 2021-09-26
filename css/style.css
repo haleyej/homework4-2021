@@ -55,7 +55,7 @@ p{
 
 a{
   color: #B21F50; 
-  text-decoration: underline #B21F50 wavy; 
+  text-decoration: underline wavy #B21F50; 
   text-decoration-color: black;
 }
 
